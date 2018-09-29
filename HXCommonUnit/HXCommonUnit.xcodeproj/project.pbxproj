@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E8D3133215F1FEE005048AB /* HXUnitCommonTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E8D3132215F1FEE005048AB /* HXUnitCommonTool.m */; };
+		0E8D3136215F589D005048AB /* HXFastJumpAppStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E8D3135215F589D005048AB /* HXFastJumpAppStore.m */; };
 		0EBDC78D215BA2E1007E678E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EBDC78C215BA2E1007E678E /* AppDelegate.m */; };
 		0EBDC790215BA2E1007E678E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EBDC78F215BA2E1007E678E /* ViewController.m */; };
 		0EBDC793215BA2E1007E678E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EBDC791215BA2E1007E678E /* Main.storyboard */; };
@@ -35,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E8D3131215F1FEE005048AB /* HXUnitCommonTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXUnitCommonTool.h; sourceTree = "<group>"; };
+		0E8D3132215F1FEE005048AB /* HXUnitCommonTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXUnitCommonTool.m; sourceTree = "<group>"; };
+		0E8D3134215F589D005048AB /* HXFastJumpAppStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXFastJumpAppStore.h; sourceTree = "<group>"; };
+		0E8D3135215F589D005048AB /* HXFastJumpAppStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXFastJumpAppStore.m; sourceTree = "<group>"; };
 		0EBDC788215BA2E1007E678E /* HXCommonUnit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HXCommonUnit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EBDC78B215BA2E1007E678E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0EBDC78C215BA2E1007E678E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -138,6 +144,10 @@
 			isa = PBXGroup;
 			children = (
 				0EBDC7BE215BA314007E678E /* HXCommonUnit.h */,
+				0E8D3131215F1FEE005048AB /* HXUnitCommonTool.h */,
+				0E8D3132215F1FEE005048AB /* HXUnitCommonTool.m */,
+				0E8D3134215F589D005048AB /* HXFastJumpAppStore.h */,
+				0E8D3135215F589D005048AB /* HXFastJumpAppStore.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -272,8 +282,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E8D3133215F1FEE005048AB /* HXUnitCommonTool.m in Sources */,
 				0EBDC790215BA2E1007E678E /* ViewController.m in Sources */,
 				0EBDC79B215BA2E3007E678E /* main.m in Sources */,
+				0E8D3136215F589D005048AB /* HXFastJumpAppStore.m in Sources */,
 				0EBDC78D215BA2E1007E678E /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -380,7 +392,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -432,7 +444,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -444,6 +456,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SYNJQ6CWNM;
 				INFOPLIST_FILE = HXCommonUnit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -460,6 +473,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SYNJQ6CWNM;
 				INFOPLIST_FILE = HXCommonUnit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
